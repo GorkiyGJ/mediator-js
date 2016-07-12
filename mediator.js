@@ -179,7 +179,7 @@ class Channel {
 
 }
 
-class Mediator {
+export default class {
 
     constructor() {
         this._channels = new Channel('');
@@ -268,6 +268,4 @@ class Mediator {
         channel.publish(args);
     }
 }
-
-export { Mediator }
 
