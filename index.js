@@ -1,1 +1,1 @@
-export Mediator from './mediator'
+export * from './mediator'
